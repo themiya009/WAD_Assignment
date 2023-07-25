@@ -1,0 +1,165 @@
+body{
+
+    padding: 0;
+    margin: 0;
+   
+}
+
+.bg{
+    background-image: url(backgrounds/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    margin-top: 200px;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 20px;
+    transition: s;
+}
+
+.signin-heading{
+
+    transition: 1s;
+    font-size: 32px;
+}
+
+.signin-heading:hover{
+
+    font-size: 42px;
+
+}
+
+.signin-button{
+    
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 100px;
+    border: 5px solid #1DA1F2;
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow:2px 2px 4px rgba(77, 76, 76, 0.4 );
+    
+}
+
+.cancel-button{
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    border: 5px solid #1DA1F2;
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: 1s;
+    box-shadow:2px 2px 4px rgba(77, 76, 76, 0.4 );
+}
+
+.cancel-button:hover{
+    cursor: pointer;
+}
+
+.signredirect{
+
+    color: aliceblue;
+    text-decoration: none;
+    transition: 1s;
+
+}
+
+.username-input{
+
+    padding: 10px;
+    width: 250px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+}
+
+.username-input:active{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.username-input:focus{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.password-input{
+
+    padding: 10px;
+    width: 250px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+
+}
+
+.password-input:active{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.password-input:focus{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+
+}
+
+.notregistered{
+
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 14px;
+}
+
+.p{
+
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.signin-button {
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<htmml>
+    <head>
+
+        <link rel="stylesheet" href="styles/adminlogin.css">
+
+        <title>adminlogin</title>
+
+    </head>
+
+    <body>
+        <div class="bg">
+            <div class="main">
+                <div class="container">
+                <h1 class="signin-heading"> Admin Sign In</h1>
+
+                <form action="php/admin_login.php" method="post">
+                    <labl class="username">UserName : </labl> 
+                
+                    <br><br>
+        
+                    <input placeholder="Enter Username Here" class="username-input" name="usrname"  type="text" required>
+                    
+                    <br><br>
+        
+                    <labl class="password">Password : </labl>
+                    
+                    <br><br> 
+        
+                    <input placeholder="Enter Password Here" class="password-input"  name="password"  type="password" required> 
+                    
+                    <br><br><br>
+        
+                    <input type= "submit" name="login" class="signin-button">
+                    <button class="cancel-button">Cancel</button>
+                </form>
+
+                <br> <br>
+                <p class="p">
+                    Not Registered ? <a class="notregistered" href="">Contact Admin </a>
+                </p>
+                </div>
+            </div>
+        </div>
+     
+        
+    </body>
+</htmml>

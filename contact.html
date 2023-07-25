@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link Tags-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <title>Document</title>
+</head>
+<body>
+        <!--Header and Navbar-->
+        <div class="main">
+            <header>
+                <div class="navbar">
+                    <div class="logo"><span>Signature</span> Cuisine</div>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#"><span id="spanHome">Contact</span></a></li>
+                    </ul>
+                    <a href="#" class="registerbtn">Book Now</a>
+                    <div class="togglebars">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <!--Map-->
+        <div class="servings">
+            <h2>Where to Find <span>Us.</span></h2>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d606.8570660149436!2d-1.8389285209357311!3d52.525685229449564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a5f3107f9e3f%3A0xb91bde38ac9f76fc!2sSignature%20Cuisine!5e0!3m2!1sen!2slk!4v1689489901064!5m2!1sen!2slk"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!--Send Us a Message-->
+        <div class="servings">
+            <h2>Send Us a <span>Message.</span></h2>
+        </div>
+
+        <div class="wrapper">
+            <div class="message-container">
+                <form class="message-form" action="php/message.php" method="post">
+                    
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name" required> <br>
+                
+                            <input type="text" name="email" id="email" placeholder="Enter Your Email" required> <br> <br>
+    
+                            <input type="text" name="phone" id="phone" placeholder="Enter Your Number" required> <br> 
+                            <textarea name="message2" placeholder="Write your Message"></textarea> <br> 
+                            <input class="submitbtn"  type="submit" name="submit" value="submit">                      
+                      
+                 </form>
+            </div>
+        </div>
+
+
+        
+            <!--JS linking Script Tag-->
+    <script src="js/message.js"></script>
+
+</body>
+</html>

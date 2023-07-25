@@ -1,0 +1,202 @@
+body{
+
+    padding: 0%;
+    margin: 0;
+  
+}
+
+.bg{
+    background-image: url(backgrounds/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    margin-top: 100px;
+    padding-top: 0px;
+    position: relative;
+    top: 50%;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+.main{
+
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-heading{
+
+    font-size: 32px;
+    transition: 1s;
+}
+
+.signup-heading:hover{
+
+    font-size: 42px;
+}
+
+.name{
+
+    padding: 10px;
+    width: 250px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+}
+
+.name:focus{
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+}
+
+.name:active{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.address{
+
+    padding: 10px;
+    width: 250px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+
+}
+
+.address:focus{
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+}
+
+.address:active{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+
+}
+
+.email{
+
+    padding: 10px;
+    width: 250px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+
+}
+
+.email:focus{
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+}
+
+.email:active{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+
+}
+
+.phone{
+
+    padding: 10px;
+    width: 250px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+    transition: 1s;
+
+}
+
+.phone:focus{
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+}
+
+.phone:active{
+
+    padding: 20px;
+    border:2px solid #1DA1F2;
+    border-radius: 10px;
+    outline: none;
+
+
+}
+
+
+.optionmenu{
+    
+    padding: 10px;
+    width: 270px;
+    border:2px solid #1DA1F2 ;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.signup-button{
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 5px solid #1DA1F2;
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    transition: 1s;
+    box-shadow:2px 2px 4px rgba(77, 76, 76, 0.4 );
+}
+
+.signup{
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.p{
+
+    font-size: 14px;
+    transition: 1s;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.signin-redirect{
+
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 14px;
+}

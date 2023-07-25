@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--Link Tags-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+
+    
+    <title>Services</title>
+</head>
+<body onclick="hidePreload2()">
+      <!--Loading icon prior to the webpag
+      <div class="preload2" data-preload>
+        <div class="circle"></div>
+        <p class="text">Signature</p>
+    </div>-->
+   
+    <!--Header and Navbar-->
+    <div class="main">
+        <header>
+            <div class="navbar">
+                <div class="logo"><span>Signature</span> Cuisine</div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html"><span id="spanHome">Services</span></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <form action="">
+                    <input type="search" name="search" placeholder="search Here">
+                </form>
+                
+                
+                <a href="#" class="registerbtn">Book Now</a>
+
+                <div class="togglebars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+    </div>
+
+      <!--Banner Image-->
+    <div class="container">
+           <div class="container1">
+           <video autoplay loop muted plays-inline>
+            <source src="resources/videos/video (2160p).mp4">
+           </video>
+     </div>
+        <div class="container2">
+            <h1 class="heading">Something Hot. Something Tasty</h1>
+        </div>
+</div>
+
+
+    <!--Search Bar-->
+   
+
+
+    <!--Menu-->
+    <div class="servings">
+        <h2>We Serve youThe <span>Best.</span></h2>
+    </div>
+    <div class="menu">
+        <div class="itemfood">
+            <img src="resources/images/food/food1.jpg" alt="">
+            <p>Chicken Burger</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food2.jpg" alt="">
+            <p>Fish with Iceream</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food3.jpg" alt="">
+            <p>Sushi</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food4.jpg" alt="">
+            <p>Banana Pancakes</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food5.jpg" alt="">
+            <p>Pizza</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food6.jpg" alt="">
+            <p>Salad</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food7.jpg" alt="">
+            <p>Cheesecake Small</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food8.jpg" alt="">
+            <p>Cheesecake Large</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food9.jpg" alt="">
+            <p>Boiled Egg Salad</p>
+            <p><span>Rs.950</span></p>
+            <button onclick="openpopup()">Order Now</button>
+        </div>
+        <div class="itemfood">
+            <img src="resources/images/food/food10.jpg" alt="">
+            <p>Banana Sandwich</p>
+            <p><span>Rs.950</span></p>
+             <button onclick="openpopup()">Order Now</button>
+        </div>
+    </div>
+
+        <!--for Book Now-->
+        <div class="booknow-container2" id="booknow-container2">
+            <div class="booknow-child2"> 
+                 <form class="form2" action="php/order.php" method="post">
+                    <label for="person">How Many Portions:</label><br><br>
+                    <select name="person" id="person">
+                      <optgroup label="">
+                        <option value="two">1 or 2 Person</option>
+                        <option value="three">3 Persons</option>
+                        <option value="four">4 Persons</option>
+                        <option value="five">5 Persons</option>
+                        <option value="six">6 Persons</option>
+                      </optgroup>
+                    </select> <br> <br>
+                    <select name="Menu" id="person">
+                        <optgroup label="">
+                          <option value="two">Chicken Burger</option>
+                          <option value="three">Banana Pancakes</option>
+                          <option value="four">Pizza</option>
+                          <option value="five">Cheesecake</option>
+                          <option value="six">Salad</option>
+                        </optgroup>
+                      </select> <br> <br>
+                      <input clas="name" type="text" name="name" id="" placeholder="Name" required><br> <br>
+                      <input clas="name" type="text" name="address" id="" placeholder="Address" required><br> <br>
+                      <input clas="name" type="text" name="email" id="" placeholder="Email" required><br> <br>
+                      <input clas="name" type="text" name="phone" id="" placeholder="Phone" required><br> <br>
+                      <input type="submit" name="order" onsubmit="closepopup()">
+                      <button onclick="closepopup()">Close</button>
+                  </form>
+            </div>
+        </div>
+
+    <!--Accomodation-->
+    <div class="servings">
+        <h2>Accomodation a it's <span>Best.</span></h2>
+    </div>
+    <div class="accomodation">
+        <div class="item-container">
+            <div class="itemroom">
+                <img src="resources/images/accomodation/bedroom1.jpg" alt="">
+                <div class="intro">
+                    <span>Single Bedroom</span>
+                    <p>
+                        Ideal for a single person looking
+                        for a releaxed day off.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="itemroom">
+                <img src="resources/images/accomodation/bedroom2.jpg" alt="">
+                <div class="intro">
+                    <span>Master Bedroom</span>
+                    <p>
+                        Ideal for a family looking
+                        for a releaxed vaction.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accomodation1">
+        <div class="item-container">
+            <div class="itemroom">
+                <img src="resources/images/accomodation/bedroom3.jpg" alt="">
+                <div class="intro">
+                    <span>Double Bedroom</span>
+                    <p>
+                        For two persons that are looking
+                        for a lovely evening
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!--JS linking Script Tag-->
+   <script src="js/order.js"></script>
+   <script src="js/searchpopup.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</body>
+</html>

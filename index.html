@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link Tags-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+
+   
+    <!--Title of the Webpage-->
+    <title>Signature Cuisine</title>
+</head>
+<body onload="hidePreload()">
+
+    <!--Loading icon prior to the webpag-->
+    <div class="preload" data-preload>
+        <div class="circle"></div>
+        <p class="text">Signature</p>
+    </div>
+
+    <!--Header and Navbar-->
+    <div class="main">
+        <header>
+            <div class="navbar">
+                <div class="logo"><span>Signature</span> Cuisine</div>
+                <ul class="links">
+                    <li><span id="spanHome">Home</span></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+                <a href="#" class="registerbtn">Book Now</a>
+                <a href="login.html" class="loginbtn"><img src="resources/images/icons/round-person.png" alt=""></a>
+                <div class="togglebars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--Banner Image-->
+    <div class="container">
+        <div class="container1">
+            <video autoplay loop muted plays-inline>
+                <source src="resources/videos/video (1080p).mp4">
+               </video>
+        </div>
+        <div class="container2">
+            <h1 class="heading">Something Hot. Something Tasty</h1>
+            <div class="para">Signature Cuisine is an exquisite restaurant that stands out for its 
+                unique culinary creations and impeccable dining experience. Located in the heart of
+                a bustling city, it has earned a reputation for offering an exceptional fusion of flavors,
+                textures, and presentation that are a true testament to the chef's artistry.
+                The restaurant's ambiance exudes elegance and sophistication, with its contemporary
+                yet welcoming interior design. The soft lighting, stylish decor, and soothing background
+                music create a relaxed atmosphere, perfect for enjoying an unforgettable meal.</div>
+             <button class="gallerybtn">Gallery</button>
+        </div>
+    </div>
+
+    <!--Pagebreak-->
+    <div class="pgcontainer">
+        <img src="resources/images/pgbreak (2).png" alt="pagebreak">
+    </div>
+
+    <div class="servings">
+        <h2>We Serve youThe <span>Best.</span></h2>
+    </div>
+    <div class="pops">
+        <div class="item">
+            <img src="resources/images/pop1.jpg">
+            <div class="parent">
+                <div class="item-child">
+                    <p><span>Dining</span></p>
+                    <p align="center">Best Dining Halls availbe with
+                        pleasent environments to enjoy 
+                        your meal peacfully.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="resources/images/pop2.jpg">
+            <div class="parent">
+                <div class="item-child">  <p><span>Dishes</span></p>
+                    <p align="center">Best Dishes to wander the 
+                        perfect taste you need.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="resources/images/pop3.jpg">
+            <div class="parent">
+                <div class="item-child">
+                <p><span>Accomodation</span></p>
+                <p align="center">
+                    Comfortable Bedrooms to relax as you please.
+                </p>
+               </div>
+            </div>
+        </div>
+    </div>
+     <!--Pagebreak-->
+     <div class="pgcontainer">
+        <img src="resources/images/pgbreak (2).png" alt="pagebreak">
+    </div>
+
+    <!--for Book Now-->
+    <div class="booknow-container">
+        <div class="booknow-child">
+            <form >
+                <div class="offer">Book Now</div><br>
+                <div class="offer">10% OFF</div> 
+            </form> 
+            <form class="form1" action="php/booknow.php" method="post">
+                <label for="person">How Many Customers:</label><br><br>
+                <select name="person" id="person">
+                  <optgroup label="">
+                    <option value="two">1 or 2 Person</option>
+                    <option value="three">3 Persons</option>
+                    <option value="four">4 Persons</option>
+                    <option value="five">5 Persons</option>
+                    <option value="six">6 Persons</option>
+                  </optgroup>
+                </select> <br> <br>
+                <input type="text" class="name" placeholder="Name" name="name" required> <br><br>
+                <input type="text" class="name" placeholder="Email" name="email" required> <br><br>
+                <input type="date" class="date" placeholder="Select the Date" name="date"> <br> <br>
+                 <select name="accomo" id="person">
+                  <optgroup label="">
+                    <option value="null">Accomodation</option>
+                    <option value="SIngle">Single</option>
+                    <option value="Double">Double</option>
+                    <option value="Master">Master</option>
+                  </optgroup>
+                </select> <br> <br>
+              <input type="checkbox" name="breakf" value="Breakfast"> <P class="breakf">Breakfast</P> <br>
+              <input type="checkbox" name="lunch" value="Lunch"><br> <P>Lunch</P>
+                <input type="checkbox" name="di" value="Dinner"><br><P>Dinner</P>
+                <input type="submit" name="book">
+            </form>
+        </div>
+    </div>
+
+       <!--Pagebreak-->
+       <div class="pgcontainer">
+        <img src="resources/images/pgbreak (2).png" alt="pagebreak">
+    </div>
+
+    <!--Our Team-->
+    
+    <div class="servings">
+        <h2>Our <span>Team.</span></h2>
+    </div>
+    <div class="team">
+        <div class="pfp">
+            <img src="resources/images/pfp/pfp1.jpg" alt="">
+            <p>Jimmy Rogan</p>
+            <p>Specialized chef in Salads</p>
+        </div>
+        <div class="pfp">
+            <img src="resources/images/pfp/pfp2.jpg" alt="">
+            <p>Jimmy Rogan</p>
+            <p>Specialized chef in Salads</p>
+        </div>
+        <div class="pfp">
+            <img src="resources/images/pfp/pfp3.jpg" alt="">
+            <p>Jimmy Rogan</p>
+            <p>Specialized chef in Salads</p>
+        </div>
+    </div>
+    <div class="servings">
+        <h2>Chefs Does it <span>All.</span></h2>
+    </div>
+    <div class="chef-parent">
+        <div class="chefdesc">
+            <p>
+                Chefs are culinary professionals who are skilled in the art 
+                of preparing and presenting food. They are experts in creating
+                delicious and visually appealing dishes, and their work spans 
+                across a variety of culinary settings, including restaurants,
+                hotels, catering services, and even private households.
+    
+                Chefs are responsible for all aspects of food preparation, 
+                from planning and sourcing ingredients to cooking and plating. 
+                They possess a deep understanding of different cooking techniques, 
+                flavor combinations, and culinary traditions, allowing them to create
+                unique and memorable dining experiences for their customers or guests.
+            </p>
+        </div>
+    </div>
+   
+    <!--Social Media info-->
+    <div class="social-container">
+        <div class="social-icons">
+           <img src="resources/images/social/facebook.png" alt="facebook">
+           <img src="resources/images/social/whatsapp.png" alt="facebook">
+           <img src="resources/images/social/instagram.png" alt="facebook">
+           <img src="resources/images/social/gmail.png" alt="facebook"> 
+        </div>
+        <div class="location">
+            <img src="resources/images/social/location.png" alt="">
+            <p>No. 123 Fake Street, Kurunegala.</p>
+        </div>
+        <div class="call">
+            <img src="resources/images/social/phone-call.png" alt="">
+            <p>+94-70-123-4567</p>
+        </div>
+    </div>
+
+     <!--JS linking Script Tag-->
+     <script src="js/script.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+ 
+</body>
+</html>
